@@ -1,0 +1,14 @@
+name: lectures
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - pip
+  - python>=3.12
+  - setuptools
+  - wheel
+  - pandoc
+  - nbconvert
+  - pip:
+      - jupyterlab
+      - jupyterlab-rise
